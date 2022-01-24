@@ -21,7 +21,6 @@ const mutations = {
 const actions = {
   async [GENERATE_REPORT]({ commit }, payload) {
     try {
-      console.log(payload);
       const { dateFrom, dateTo } = payload;
       const query = { date_from: dateFrom, date_to: dateTo };
       ApiService.setHeader();

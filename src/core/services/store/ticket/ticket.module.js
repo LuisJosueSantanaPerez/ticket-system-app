@@ -81,7 +81,6 @@ const actions = {
     }
   },
   async [UPDATE_A_TICKET]({ commit }, payload) {
-    console.log("UPDATE_A_TICKET");
     try {
       const {
         id,
@@ -116,7 +115,6 @@ const actions = {
   },
   async [GET_ASSIGNED_TICKETS_EMPLOYEES]({ commit }, payload) {
     try {
-      console.log("GET_ASSIGNED_TICKETS_EMPLOYEES", payload);
       const { data } = await ApiService.get(
         "assigned-tickets-employees",
         `${payload}`
@@ -128,7 +126,6 @@ const actions = {
   },
   async [GET_TICKET_TIME_ENTRY]({ commit }, payload) {
     try {
-      console.log("GET_ASSIGNED_TICKETS_EMPLOYEES", payload);
       const { data } = await ApiService.get(
         "tickets",
         `${payload}/time-entries`

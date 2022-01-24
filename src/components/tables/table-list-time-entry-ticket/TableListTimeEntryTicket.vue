@@ -93,13 +93,10 @@ export default {
       try {
         const { data } = await this.$store.dispatch("timeEntry/getATicket", id);
         return data.entries;
-      } catch (e) {
-        console.log(e);
-      }
+      } catch (e) {}
     },
     async edit({ item }) {
       const { id } = item;
-      console.log("table List Time Entry", item);
       this.$emit("editTimeEntry", id);
     },
     async del({ item }) {

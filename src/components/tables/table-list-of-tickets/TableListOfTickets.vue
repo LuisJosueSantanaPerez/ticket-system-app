@@ -480,9 +480,7 @@ export default {
         await this.$router
           .replace({ name: "tickets", query: query })
           .catch(() => {});
-      } catch (e) {
-        console.log(e);
-      }
+      } catch (e) {}
     },
   },
 };

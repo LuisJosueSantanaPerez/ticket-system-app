@@ -194,8 +194,8 @@ export default {
         },
       ],
       filters: {
-        dateFrom: "2022-01-01 02:25:00",
-        dateTo: "2022-12-01 07:27:36",
+        dateFrom: "",
+        dateTo: "",
       },
       showFilter: true,
       busy: false,
@@ -229,7 +229,6 @@ export default {
         this.busy = false;
       } catch (e) {
         this.busy = false;
-        console.log(e);
         await this.$swal(configMessage.error);
       }
     },

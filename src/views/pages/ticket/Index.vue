@@ -458,17 +458,13 @@ export default {
           id
         );
         return data;
-      } catch (e) {
-        console.log(e);
-      }
+      } catch (e) {}
     },
     async getTicketTimeEntry({ id }) {
       try {
         const { data } = await this.$store.dispatch("ticket/getATicket", id);
         return data.entries;
-      } catch (e) {
-        console.log(e);
-      }
+      } catch (e) {}
     },
     async showTicketInformation({ item }) {
       try {
@@ -496,9 +492,7 @@ export default {
         if (!this.isEditFormTimeEntry) {
           this.isTimeEntryForm = true;
         }
-      } catch (e) {
-        console.log(e);
-      }
+      } catch (e) {}
     },
     async onSubmit() {
       try {
@@ -519,10 +513,7 @@ export default {
                   this.onReset();
                   this.$refs.TableListOfTickets.refreshData();
                   return;
-                } catch (e) {
-                  console.log(e);
-                  await this.$swal(configMessage.error);
-                }
+                } catch (e) {await this.$swal(configMessage.error);}
               }
             }
           );

@@ -253,10 +253,7 @@ export default {
         );
         await this.$store.dispatch("timeEntry/createTimeEntry", this.form);
         await this.$swal(configMessage.success);
-      } catch (e) {
-        console.log(e);
-        await this.$swal(configMessage.error);
-      }
+      } catch (e) { await this.$swal(configMessage.error);}
     },
   },
 };
