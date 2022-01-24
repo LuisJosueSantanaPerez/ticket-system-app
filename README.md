@@ -16,7 +16,7 @@ It is a basic system in which an employee logs in, can create, update and delete
 
 - **Create employees:**
 
-- ![Screenshot from 2022-01-23 08-08-88](Ticket-System-App/Screenshot_from_2022-01-23_08-08-88.png)
+- ![Screenshot from 2022-01-23 08-08-88.png](Ticket-System-App/Screenshot_from_2022-01-23_08-08-88.png)
     
 - **Create Time entries:**
 
