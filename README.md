@@ -66,3 +66,13 @@ Now let's build the Docker image of our application:
 Now let's build the Docker image of our application:
 
 `docker run -it -p 80:80/tcp --rm ticket-system-app/dockerize-ticket-system-app:latest`
+
+**important**
+
+After you have done the backend and frontend configuration, the user and password is :
+`
+user => admin@admin.com and password => admin1234
+`
+then if you want to change it, you log in and go to the employee part and change it to the one you like.
+ 
+ 
