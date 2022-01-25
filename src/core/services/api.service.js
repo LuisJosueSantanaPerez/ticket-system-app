@@ -15,10 +15,7 @@ const ApiService = {
   /**
    * Set the default HTTP request headers
    */
-  setHeader() {
-    Vue.axios.defaults.headers["Access-Control-Allow-Methods"] =
-      "PUT, POST, PATCH, DELETE, GET";
-    Vue.axios.defaults.headers["Access-Control-Allow-Origin"] = "*";
+  async setHeader() {
     Vue.axios.defaults.headers.common.Authorization = `Bearer ${JwtService.getToken()}`;
   },
 

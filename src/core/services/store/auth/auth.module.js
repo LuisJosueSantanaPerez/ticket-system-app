@@ -30,24 +30,22 @@ const getters = {
 const actions = {
   [LOGIN](context, credentials) {
     return new Promise((resolve, reject) => {
-      ApiService.get(
-        `${process.env.VUE_APP_SANCTUM_STATEFUL_DOMAINS}sanctum/csrf-cookie`
-      ).then(() => {
-        ApiService.post("auth/login", credentials)
-          .then(({ data }) => {
-            context.commit(SET_AUTH, data.data);
-            resolve(data);
-          })
-          .catch(({ message }) => {
-            reject(message);
-            context.commit(SET_ERROR, message);
-          });
-      });
+      ApiService.setHeader();
+      ApiService.post("auth/login", credentials)
+        .then(({ data }) => {
+          context.commit(SET_AUTH, data.data);
+          resolve(data);
+        })
+        .catch(({ message }) => {
+          reject(message);
+          context.commit(SET_ERROR, message);
+        });
     });
   },
   [LOGOUT](context) {
     if (JwtService.getToken()) {
       return new Promise((resolve, reject) => {
+        ApiService.setHeader();
         ApiService.get("auth/logout")
           .then(({ data }) => {
             context.commit(PURGE_AUTH);
