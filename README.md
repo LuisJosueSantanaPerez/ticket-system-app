@@ -20,7 +20,9 @@ It is a basic system in which an employee logs in, can create, update and delete
     
 - **Create Time entries:**
 
-  ![Screenshot from 2022-01-23 01-04-56.png](documentation/Screenshot_from_2022-01-23_01-04-56.png) 
+  ![Screenshot from 2022-01-23 01-04-56.png](documentation/Screenshot_from_2022-01-23_01-04-56.png)
+  ![Screenshot from 2022-01-23 01-07-16.png](documentation/Screenshot_from_2022-01-23_01-07-16.png)
+  ![Screenshot from 2022-01-23 01-07-21.png](documentation/Screenshot_from_2022-01-23_01-07-21.png)
 
 - **Reports(Worked):**
 
