@@ -39,8 +39,9 @@ If you have not configured the api it is recommended that you go here [Ticket Sy
 
 1. **Clone the repository:**
     
-    [`$ https://github.com/Darknet17/ticket-system-app`](https://github.com/Darknet17/ticket-system-app)
-
+```bash
+$ git clone https://github.com/Darknet17/ticket-system-app
+```
 
  2.  **Execute:** 
 
