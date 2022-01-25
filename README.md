@@ -39,13 +39,12 @@ If you have not configured the api it is recommended that you go here [Ticket Sy
 
 1. **Clone the repository:**
     
-    [`bash $ https://github.com/Darknet17/ticket-system-app`](https://github.com/Darknet17/ticket-system-app)
+    [`$ https://github.com/Darknet17/ticket-system-app`](https://github.com/Darknet17/ticket-system-app)
 
 
  2.  **Execute:** 
 
-```
-bash
+```bash
 $ npm install
 $ npm run serve
 # or run the next command for production
@@ -54,9 +53,9 @@ $ npm run build
 
  3.  **Add your file** `.env` **:**
 
- ` 
- bash
- $ cp env.example .env`
+ ```bash
+ $ cp env.example .env
+ ```
 
  4. **API entry point:**
 
@@ -70,11 +69,15 @@ add your entry point to connect to the api
 
 Now let's build the Docker image of our application: 
 
-`bash $ docker build -t ticket-system-app/dockerize-ticket-system-app .`
+```bash
+$ docker build -t ticket-system-app/dockerize-ticket-system-app .
+```
 
 Now let's build the Docker image of our application:
 
-` bash $ docker run -it -p 80:80/tcp --rm ticket-system-app/dockerize-ticket-system-app:latest`
+```bash
+$ docker run -it -p 80:80/tcp --rm ticket-system-app/dockerize-ticket-system-app:latest
+```
 
 **important**
 
