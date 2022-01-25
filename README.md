@@ -9,14 +9,14 @@ It is a basic system in which an employee logs in, can create, update and delete
 - **Login:**
 
   ![Screenshot from 2022-01-23 01-02-38.png](documentation/Screenshot_from_2022-01-23_01-02-38.png)
-    
+
 - **Create a ticket:**
 
   ![Screenshot from 2022-01-23 01-04-40.png](documentation/Screenshot_from_2022-01-23_01-04-40.png)
 
 - **Create employees:**
 
-- ![Screenshot from 2022-01-2 _01-08-22.png](documentation/Screenshot_from_2022-01-23_01-08-22.png)
+ ![Screenshot from 2022-01-2 _01-08-22.png](documentation/Screenshot_from_2022-01-23_01-08-22.png)
     
 - **Create Time entries:**
 
@@ -39,7 +39,7 @@ If you have not configured the api it is recommended that you go here [Ticket Sy
 1. **Clone the repository:**
     
     [`bash $ https://github.com/Darknet17/ticket-system-app`](https://github.com/Darknet17/ticket-system-app)
-    
+
 
  2.  **Execute:** 
 
@@ -82,5 +82,3 @@ After you have done the backend and frontend configuration, the user and passwor
 email:admin@admin.com and password: admin1234
 `
 then if you want to change it, you log in and go to the employee part and change it to the one you like.
- 
- 
