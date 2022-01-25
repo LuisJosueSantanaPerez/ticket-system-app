@@ -75,7 +75,7 @@ $ docker build -t ticket-system-app/dockerize-ticket-system-app .
 Now let's build the Docker image of our application:
 
 ```bash
-$ docker run -it -p 80:80/tcp --rm ticket-system-app/dockerize-ticket-system-app:latest
+$ docker run -it -p 80:80/tcp --rm ticket-system-app/dockerize-ticket-system-app
 ```
 
 **important**
