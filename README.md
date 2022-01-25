@@ -60,7 +60,7 @@ $ npm run build
 
  4. **API entry point:**
 
-add your entry point to connect to the api
+add your entry point to connect to the api in the .env file
 
 `VUE_APP_URL_API=http://webserver/api/v1/` <br>
 
