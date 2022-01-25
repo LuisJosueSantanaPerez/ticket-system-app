@@ -31,6 +31,9 @@ It is a basic system in which an employee logs in, can create, update and delete
 
 The ticket system uses Vue Framework, Vue JS is a progressive Javascript framework for developing user interfaces. This framework bases its main core on the view layer with the model-view-controller pattern, allowing to relate the presentation layer with the logical layer of the project in an easy and efficient way.
 
+**Before you start:**
+If you have not configured the api it is recommended that you go here [Ticket System Api](https://github.com/Darknet17/ticket-system-api "").
+
 **Installation:**
 
 1. **Clone the repository:**
@@ -58,7 +61,8 @@ $ npm run build
 
 add your entry point to connect to the api
 
-`VUE_APP_URL_API=http://127.0.0.1:8000/api/v1/`
+`VUE_APP_URL_API=http://webserver/api/v1/ && VUE_APP_SANCTUM_STATEFUL_DOMAINS=http://webserver:8000/`
+
 
 **Docker:**
 

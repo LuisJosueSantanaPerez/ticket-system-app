@@ -513,7 +513,9 @@ export default {
                   this.onReset();
                   this.$refs.TableListOfTickets.refreshData();
                   return;
-                } catch (e) {await this.$swal(configMessage.error);}
+                } catch (e) {
+                  await this.$swal(configMessage.error);
+                }
               }
             }
           );

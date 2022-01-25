@@ -9,13 +9,16 @@ import JwtService from "@/core/services/jwt.service";
 const ApiService = {
   init() {
     Vue.use(VueAxios, axios);
-    Vue.axios.defaults.baseURL = process.env.VUE_APP_URL_API;
+    Vue.axios.defaults.baseURL = process.env.VUE_APP_URL_API_DEV;
   },
 
   /**
    * Set the default HTTP request headers
    */
   setHeader() {
+    Vue.axios.defaults.headers["Access-Control-Allow-Methods"] =
+      "PUT, POST, PATCH, DELETE, GET";
+    Vue.axios.defaults.headers["Access-Control-Allow-Origin"] = "*";
     Vue.axios.defaults.headers.common.Authorization = `Bearer ${JwtService.getToken()}`;
   },
 

@@ -102,8 +102,8 @@ export default {
   data() {
     return {
       form: {
-        email: "chester43@example.org",
-        password: "@#HolaMundo",
+        email: "",
+        password: "",
       },
       isBusy: false,
     };
