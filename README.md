@@ -62,8 +62,6 @@ $ npm run build
 add your entry point to connect to the api
 
 `VUE_APP_URL_API=http://webserver/api/v1/` <br>
-`VUE_APP_SANCTUM_STATEFUL_DOMAINS=http://webserver:8000/`
-
 
 **Docker:**
 
