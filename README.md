@@ -55,7 +55,7 @@ $ npm run build
  3.  **Add your file** `.env` **:**
 
  ```bash
- $ cp env.example .env
+ $ cp .env.example .env
  ```
 
  4. **API entry point:**
@@ -85,3 +85,5 @@ After you have done the backend and frontend configuration, the user and passwor
 email:admin@admin.com and password: admin1234
 `
 then if you want to change it, you log in and go to the employee part and change it to the one you like.
+
+# 🎉 Ready  🎉
