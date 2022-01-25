@@ -16,12 +16,11 @@ It is a basic system in which an employee logs in, can create, update and delete
 
 - **Create employees:**
 
- ![Screenshot from 2022-01-2 _01-08-22.png](documentation/Screenshot_from_2022-01-23_01-08-22.png)
+ ![Screenshot from 2022-01-25 14-24-03.png](documentation/Screenshot_from_2022-01-25_14-24-03.png)
     
 - **Create Time entries:**
 
-  ![Screenshot from 2022-01-23 01-04-56.png](documentation/Screenshot_from_2022-01-23_01-04-56.png)
-    
+  ![Screenshot from 2022-01-23 01-04-56.png](documentation/Screenshot_from_2022-01-23_01-04-56.png) 
 
 - **Reports(Worked):**
 
